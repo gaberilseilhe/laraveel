@@ -15,16 +15,16 @@ class UserController extends BaseController
 
         $usuarios =  
         [
-            ["id" => "1", "nome" => "Sung Jin-Woo", "grupo" => "Mago"],
-            ["id" => "2", "nome" => "Lee Minho", "grupo" => "Cavaleiro"],
-            ["id" => "3", "nome" => "Kim Seojin", "grupo" => "Arqueiro"],
-            ["id" => "4", "nome" => "Choi Seungjae", "grupo" => "Ladino"],
-            ["id" => "5", "nome" => "Park Hyojin", "grupo" => "Mago"],
-            ["id" => "6", "nome" => "Jang Miho", "grupo" => "Curandeiro"],
-            ["id" => "7", "nome" => "Yoo Jin-hoo", "grupo" => "Guerreiro"],
-            ["id" => "8", "nome" => "Han Taekwon", "grupo" => "Assassino"],
-            ["id" => "9", "nome" => "Kang Minji", "grupo" => "Lançador de Facas"],
-            ["id" => "10", "nome" => "Jin Wooseok", "grupo" => "Defensor"]
+            ["id" => "1", "nome" => "gaberil", "grupo" => "Mago"],
+            ["id" => "2", "nome" => "leo", "grupo" => "Cavaleiro"],
+            ["id" => "3", "nome" => "lucas", "grupo" => "Arqueiro"],
+            ["id" => "4", "nome" => "grabiel", "grupo" => "Ladino"],
+            ["id" => "5", "nome" => "ares", "grupo" => "Mago"],
+            ["id" => "6", "nome" => "aries", "grupo" => "Curandeiro"],
+            ["id" => "7", "nome" => "2121", "grupo" => "Guerreiro"],
+            ["id" => "8", "nome" => "wadasda", "grupo" => "Assassino"],
+            ["id" => "9", "nome" => "art", "grupo" => "Lançador de Facas"],
+            ["id" => "10", "nome" => "igris", "grupo" => "Defensor"]
         ];
 
     return response()->json($usuarios);

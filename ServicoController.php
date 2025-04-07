@@ -11,7 +11,7 @@ class ServicoController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function getservico(){
+    public function getservicos(){
 
         $servico =  
         [
